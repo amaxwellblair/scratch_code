@@ -4,55 +4,95 @@
 
   <head>
     <style type="text/css">
+      div.wrapper {
+        width: 1000px;
+      }
+
       body {
         /* color: #666666; */
-        padding: 0px;
-        margin: 0px;
+
       }
-      aside{
+      aside {
         width: 200px;
         height: 700px;
         float: right;
         margin: 0px;
         padding: 0px;
         border: 0px;
+
       }
-      header, h1, h2{
-        display: block;
-        background-color: black;
+      header {
+        background-color: purple;
         color: white;
         text-align: center;
-        margin: 0px;
-        padding: 0px;
-        border: 0px;
-        p{margin: 0; padding: 0;}
       }
-      p{
-        margin: 0px;
-        padding: 0px;
+      div.feet {
+        width: 1000px;
+        border-style: solid;
+        clear: right;
+      }
+      #content{
+
+      }
+      p.feet {
+        width: 1000px;
+      }
+      h1 {
+
       }
 
       #side {
         background-color: #f9f8f6;
       }
+      article.basic {
+        width: 200px;
+        float: left;
+        text-align: center;
+        margin-left: 10px;
+      }
+      p.article {
+
+        border-color: #B266FF;
+        border-style: solid;
+      }
     </style>
   </head>
   <body>
-    <header>
-      <h1> This is my first page ever </h1>
-      <h2> By: Max Blair</h2>
-    </header>
-    <aside id = side>
-      <p> This is the looooooong aside </p>
-    </aside>
-    <div>
-      <p>The natural space between divisions</p>
+    <div class = "wrapper">
+      <header>
+        <h1> This is my first page ever </h1>
+        <h2> By: Max Blair</h2>
+      </header>
+      <div id = "content">
+        <article class = "basic">
+          <p class = "article">This is the text. This is the text. This is the text. This is the text.
+          This is the text. This is the text. This is the text. This is the text. This is the text.
+          </p>
+        </article>
+
+        <article class = "basic">
+          <p>This is the text. This is the text. This is the text. This is the text.
+          This is the text. This is the text. This is the text. This is the text. This is the text.
+          </p>
+        </article>
+
+        <article class = "basic">
+          <p>This is the text. This is the text. This is the text. This is the text.
+          This is the text. This is the text. This is the text. This is the text. This is the text.
+          </p>
+        </article>
+
+      </div>
+      <aside id = side>
+        <p> This is the looooooong aside </p>
+      </aside>
+
+      <footer>
+        <div class = "feet">
+          <p class = "feet"> Probably the end of my first page ever </p>
+        </div>
+      </footer>
+
     </div>
-    <div>
-      <p>The natural space between divisions</p>
-    </div>
-
-
-
   </body>
 </html>
